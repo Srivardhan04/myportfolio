@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tallapaneni Lakshmi Srivardhan - Full Stack Developer, AI/ML Engineer & Data Analyst. Building intelligent applications with modern web technologies.">
+    <meta name="keywords" content="Full Stack Developer, AI Engineer, ML Engineer, React, Python, TensorFlow, Web Development, Portfolio">
+    <meta name="author" content="Tallapaneni Lakshmi Srivardhan">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Srivardhan | Full Stack Developer & AI Engineer">
+    <meta property="og:description" content="Building intelligent applications that combine AI, modern web technologies, and solve real-world problems.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/WhatsApp Image 2025-10-18 at 8.22.20 PM.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#0a0f1c">
+    
+    <title>Srivardhan | Full Stack Developer & AI Engineer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Srivardhan</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting animate-fade-up">
+                        <span class="wave"></span> Hello, I'm
+                    </div>
+                    <h1 class="hero-name animate-fade-up delay-1">
+                        Tallapaneni Lakshmi <span class="gradient-text">Srivardhan</span>
+                    </h1>
+                    <div class="hero-title animate-fade-up delay-2">
+                        <span class="title-prefix">I'm a</span>
+                        <span class="typing-wrapper">
+                            <span id="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </span>
+                    </div>
+                    <p class="hero-description animate-fade-up delay-3">
+                        Crafting intelligent applications that merge AI innovation with modern web technologies. 
+                        Passionate about solving complex problems and building scalable solutions that make a real impact.
+                    </p>
+                    <div class="hero-buttons animate-fade-up delay-4">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="hero-social animate-fade-up delay-5">
+                        <a href="https://github.com/Srivardhan04" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lakshmi-srivardhan-tallapaneni-423760268/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:srivardhantalapaneni@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image animate-fade-left delay-2">
+                    <div class="image-wrapper">
+                        <div class="image-glow"></div>
+                        <div class="image-border"></div>
+                        <img src="assets/WhatsApp Image 2025-10-18 at 8.22.20 PM.jpeg" alt="Srivardhan - Full Stack Developer" class="profile-image" loading="eager">
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Software Engineer</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-brain"></i>
+                        <span>AI/ML</span>
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fas fa-code"></i>
+                        <span>Full-Stack</span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <div class="about-image-wrapper">
+                        <img src="assets/WhatsApp Image 2025-10-18 at 8.22.20 PM.jpeg" alt="About Srivardhan" loading="lazy">
+                        <div class="experience-badge glass-card">
+                            <span class="exp-number">1+</span>
+                            <span class="exp-text">Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info animate-on-scroll">
+                    <div class="about-cards">
+                        <div class="about-card glass-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Full-Stack Development</h3>
+                            <p>Building end-to-end web applications with React, Node.js, and modern frameworks</p>
+                        </div>
+                        <div class="about-card glass-card">
+                            <i class="fas fa-brain"></i>
+                            <h3>AI & Machine Learning</h3>
+                            <p>Creating intelligent solutions using TensorFlow, OpenCV, and NLP technologies</p>
+                        </div>
+                        <div class="about-card glass-card">
+                            <i class="fas fa-microchip"></i>
+                            <h3>IoT Solutions</h3>
+                            <p>Developing smart systems with ESP32, sensors, and real-time monitoring</p>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            I'm a passionate <strong>Full-Stack Developer</strong> and <strong>AI/ML Engineer</strong> 
+                            pursuing B.Tech in Artificial Intelligence and Machine Learning. I specialize in building 
+                            comprehensive applications that bridge frontend interfaces, backend systems, and intelligent automation.
+                        </p>
+                        <p>
+                            My journey spans developing AI-powered platforms like educational assistants and trading systems, 
+                            to creating IoT-based safety solutions. I thrive on solving complex problems and transforming 
+                            innovative ideas into production-ready applications.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10">0</span>
+                            <span class="stat-plus">+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="25">0</span>
+                            <span class="stat-plus">+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-plus">+</span>
+                            <span class="stat-label">Freelance Projects</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Talk</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Know</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category glass-card animate-on-scroll">
+                    <div class="skill-icon frontend">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> TypeScript</span>
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-tag"><i class="fas fa-wind"></i> Tailwind CSS</span>
+                        <span class="skill-tag"><i class="fas fa-bolt"></i> Vite</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category glass-card animate-on-scroll">
+                    <div class="skill-icon backend">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> Express.js</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fas fa-flask"></i> Flask</span>
+                        <span class="skill-tag"><i class="fas fa-cogs"></i> REST APIs</span>
+                    </div>
+                </div>
+
+                <!-- AI/ML -->
+                <div class="skill-category glass-card animate-on-scroll">
+                    <div class="skill-icon aiml">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-robot"></i> TensorFlow</span>
+                        <span class="skill-tag"><i class="fas fa-eye"></i> OpenCV</span>
+                        <span class="skill-tag"><i class="fas fa-chart-line"></i> Scikit-learn</span>
+                        <span class="skill-tag"><i class="fas fa-comments"></i> NLP</span>
+                        <span class="skill-tag"><i class="fas fa-network-wired"></i> Deep Learning</span>
+                        <span class="skill-tag"><i class="fas fa-gem"></i> Gemini AI</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category glass-card animate-on-scroll">
+                    <div class="skill-icon database">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+                        <span class="skill-tag"><i class="fas fa-table"></i> SQL</span>
+                        <span class="skill-tag"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category glass-card animate-on-scroll">
+                    <div class="skill-icon tools">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-cloud"></i> Cloudinary</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+                        <span class="skill-tag"><i class="fas fa-book"></i> Jupyter</span>
+                        <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+                    </div>
+                </div>
+
+                <!-- Data Analytics -->
+                <div class="skill-category glass-card animate-on-scroll">
+                    <div class="skill-icon analytics">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-table"></i> Pandas</span>
+                        <span class="skill-tag"><i class="fas fa-calculator"></i> NumPy</span>
+                        <span class="skill-tag"><i class="fas fa-chart-pie"></i> Power BI</span>
+                        <span class="skill-tag"><i class="fas fa-chart-area"></i> Matplotlib</span>
+                        <span class="skill-tag"><i class="fas fa-chart-line"></i> Seaborn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Contexta AI -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/contexta-ai" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Contexta AI</h3>
+                        <p>An intelligent conversational AI platform with context-aware responses, multi-turn dialogue management, and advanced NLP capabilities for natural human-computer interaction.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Gemini AI</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/contexta-ai" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ameena AI -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/ameena-ai" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ameena AI - Educational Platform</h3>
+                        <p>AI-powered platform that transforms any content into study materials using Google's Gemini AI. Generates notes, quizzes, presentations, diagrams, and interactive learning tools.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Gemini AI</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/ameena-ai" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AlphaFxTrader -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/AlphaXTrader" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AlphaFxTrader - Trading Platform</h3>
+                        <p>Modern forex trading dashboard with real-time price streaming, interactive charts, trade execution, and comprehensive trade management with dark mode support.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Recharts</span>
+                            <span>Tailwind</span>
+                            <span>Vite</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/AlphaXTrader" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smart Q-A -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/smart-q-a" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Q-A</h3>
+                        <p>Intelligent question-answering system powered by advanced NLP and machine learning models for accurate and context-aware responses to user queries.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                            <span>Transformers</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/smart-q-a" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tennis Analysis -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/Intelligent-Automation-for-Real-Time-Tennis-Stroke-Analysis-and-Match-Prediction" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-table-tennis"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tennis Stroke Analysis</h3>
+                        <p>End-to-end computer vision model for analyzing tennis matches. Includes player tracking, ball detection, stroke classification, and pattern anomaly detection.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Deep Learning</span>
+                            <span>YOLO</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/Intelligent-Automation-for-Real-Time-Tennis-Stroke-Analysis-and-Match-Prediction" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medicine Recommendation -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medicine Recommendation System</h3>
+                        <p>AI-based personalized medical recommendation system providing medicine suggestions based on symptoms, medical history, and health conditions using ML models.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT Cyclist Safety -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/IoT-based-cyclist-safety-system." target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-bicycle"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IoT Cyclist Safety System</h3>
+                        <p>IoT-based anomaly detection using ESP32 and MPU6050 to detect falls and crashes with real-time alerts, web dashboard, and ML-powered behavior analysis.</p>
+                        <div class="project-tech">
+                            <span>ESP32</span>
+                            <span>React</span>
+                            <span>TensorFlow Lite</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/IoT-based-cyclist-safety-system." target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Honest AI Media Recorder -->
+                <div class="project-card glass-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Srivardhan04/truescope-ai" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Honest AI - Media Recorder</h3>
+                        <p>Comprehensive full-stack media recording application with screen, camera, voice recording, real-time speech-to-text transcription, and cloud storage integration.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Cloudinary</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Srivardhan04/truescope-ai" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-footer">
+                <a href="https://github.com/Srivardhan04?tab=repositories" target="_blank" class="btn btn-secondary">
+                    <span>View All Projects</span>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Journey</span>
+                <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+            </div>
+            <div class="experience-timeline">
+                <!-- Smarc2k26 -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-info">
+                                <h3>Freelance Web Developer</h3>
+                                <span class="company">Smarc2k26 - Official Website</span>
+                            </div>
+                            <div class="timeline-date">
+                                <i class="far fa-calendar"></i>
+                                <span>2024 - 2025</span>
+                            </div>
+                        </div>
+                        <div class="timeline-badge">Freelance Project</div>
+                        <p class="timeline-description">
+                            Designed and developed a professional website for Smarc2k26, an official event/organization platform. 
+                            Implemented modern responsive UI/UX design, optimized performance, and delivered a production-ready 
+                            solution meeting all client requirements.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li><i class="fas fa-check"></i> Built responsive layouts for all device sizes</li>
+                            <li><i class="fas fa-check"></i> Implemented modern UI with smooth animations</li>
+                            <li><i class="fas fa-check"></i> Optimized performance and SEO</li>
+                            <li><i class="fas fa-check"></i> Delivered production-ready solution</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="timeline-actions">
+                            <a href="https://www.smarc2k26.co.in/" target="_blank" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Live Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pocket Scorer -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-info">
+                                <h3>Freelance Full-Stack Developer</h3>
+                                <span class="company">Pocket Scorer - Sports Scoring App</span>
+                            </div>
+                            <div class="timeline-date">
+                                <i class="far fa-calendar"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <div class="timeline-badge">Freelance Project</div>
+                        <p class="timeline-description">
+                            Developed a comprehensive sports scoring application for real-time match tracking and score management. 
+                            Built with modern web technologies, featuring intuitive UI for easy score updates and match statistics.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li><i class="fas fa-check"></i> Real-time score tracking and updates</li>
+                            <li><i class="fas fa-check"></i> Match management and statistics</li>
+                            <li><i class="fas fa-check"></i> User-friendly interface design</li>
+                            <li><i class="fas fa-check"></i> Mobile-responsive application</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Real-time Updates</span>
+                        </div>
+                        <div class="timeline-actions">
+                            <a href="https://github.com/Srivardhan04/pocket-scorer" target="_blank" class="btn btn-secondary btn-sm">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <!-- Live demo link placeholder - user will add manually -->
+                            <a href="#" class="btn btn-primary btn-sm live-demo-placeholder">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virtual Experience -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-info">
+                                <h3>Software Engineering Virtual Experience</h3>
+                                <span class="company">JPMorgan Chase & Co.</span>
+                            </div>
+                            <div class="timeline-date">
+                                <i class="far fa-calendar"></i>
+                                <span>Dec 2024 - Jan 2025</span>
+                            </div>
+                        </div>
+                        <div class="timeline-badge virtual">Virtual Experience</div>
+                        <p class="timeline-description">
+                            Participated in a software engineering simulation, developing REST API integration and backend services. 
+                            Gained hands-on experience with professional development workflows and enterprise software practices.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li><i class="fas fa-check"></i> REST API development and integration</li>
+                            <li><i class="fas fa-check"></i> Backend services simulation</li>
+                            <li><i class="fas fa-check"></i> Professional workflow experience</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>REST APIs</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Let's Work Together!</h3>
+                    <p>
+                        I'm always open to discussing new opportunities, interesting projects, 
+                        or just having a chat about technology. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item glass-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:srivardhantalapaneni@gmail.com">srivardhantalapaneni@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item glass-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+916305486939">+91 6305486939</a>
+                            </div>
+                        </div>
+                        <div class="contact-item glass-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Location</span>
+                                <span>Hyderabad, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Srivardhan04" target="_blank" class="social-link glass-card" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lakshmi-srivardhan-tallapaneni-423760268/" target="_blank" class="social-link glass-card" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/Srivardhan56364" target="_blank" class="social-link glass-card" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_.sri._.vardhan._.chowdary._/" target="_blank" class="social-link glass-card" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card animate-on-scroll" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Srivardhan" required>
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="srivardhantalapaneni@gmail.com" required>
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        <span class="input-focus"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Tallapaneni Lakshmi Srivardhan</span>
+                    <span class="logo-dot">.</span>
+                </div>
+                <p class="footer-text">Building the future, one line of code at a time.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Srivardhan04" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lakshmi-srivardhan-tallapaneni-423760268/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:srivardhantalapaneni@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tallapaneni Lakshmi Srivardhan. All Rights Reserved.</p>
+                <p></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
