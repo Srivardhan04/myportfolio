@@ -35,8 +35,8 @@ A modern, professional developer portfolio showcasing my skills, projects, and e
 
 ## Contact
 
-- **Email**: srivardhan2004@gmail.com
-- **LinkedIn**: [Srivardhan](https://linkedin.com/in/srivardhan04)
+- **Email**: srivardhantalapaneni@gmail.com
+- **LinkedIn**: [Srivardhan](https://www.linkedin.com/in/lakshmi-srivardhan-tallapaneni/)
 - **GitHub**: [Srivardhan04](https://github.com/Srivardhan04)
 
 ## License
