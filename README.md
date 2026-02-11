@@ -1,8 +1,8 @@
-# Srivardhan's Portfolio
+# Tallapaneni Lakshmi Srivardhan Portfolio
 
 A modern, professional developer portfolio showcasing my skills, projects, and experience.
 
-## 🌟 Features
+## Features
 
 - **Glassmorphism UI** - Modern frosted glass design with smooth animations
 - **Responsive Design** - Fully optimized for all devices
@@ -10,7 +10,7 @@ A modern, professional developer portfolio showcasing my skills, projects, and e
 - **Interactive Sections** - Hero, About, Skills, Projects, Experience, and Contact
 - **Animated Elements** - Scroll animations, typewriter effect, and floating elements
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - HTML5
 - CSS3 (Custom Properties, Flexbox, Grid)
@@ -18,7 +18,7 @@ A modern, professional developer portfolio showcasing my skills, projects, and e
 - Font Awesome Icons
 - Google Fonts (Inter, Poppins)
 
-## 📂 Projects Featured
+## Projects Featured
 
 - **Contexta AI** - AI-powered context extraction tool
 - **Ameena AI** - Intelligent conversational agent
@@ -29,20 +29,20 @@ A modern, professional developer portfolio showcasing my skills, projects, and e
 - **IoT Cyclist Safety** - Smart safety monitoring system
 - **Honest AI** - Ethical AI evaluation platform
 
-## 🚀 Live Demo
+## Live Demo
 
-[View Portfolio](https://srivardhan-portfolio.netlify.app)
+[View Portfolio](https://myportfoliosrivardhan.netlify.app/)
 
-## 📞 Contact
+## Contact
 
 - **Email**: srivardhan2004@gmail.com
 - **LinkedIn**: [Srivardhan](https://linkedin.com/in/srivardhan04)
 - **GitHub**: [Srivardhan04](https://github.com/Srivardhan04)
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-⭐ Star this repo if you like it!
+Star this repo if you like it!
