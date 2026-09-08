@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // =============================================
     
     const phrases = [
+        'Product Engineer',
         'Full-Stack Developer',
-        'Software Engineer',
         'AI/ML Engineer',
         'Problem Solver'
     ];
@@ -63,6 +63,80 @@ document.addEventListener('DOMContentLoaded', function() {
     // Start typewriter
     if (typingText) {
         typeWriter();
+    }
+
+    // =============================================
+    // LIVE EXPERIENCE TENURE
+    // =============================================
+
+    const tenureCounters = document.querySelectorAll('[data-start-date]');
+
+    function formatTenure(startDate, currentDate, format = 'full') {
+        if (currentDate < startDate) {
+            return `Starts ${startDate.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+            })}`;
+        }
+
+        let cursor = new Date(startDate);
+        let years = currentDate.getFullYear() - cursor.getFullYear();
+        cursor.setFullYear(cursor.getFullYear() + years);
+
+        if (cursor > currentDate) {
+            years--;
+            cursor = new Date(startDate);
+            cursor.setFullYear(cursor.getFullYear() + years);
+        }
+
+        let months = (currentDate.getFullYear() - cursor.getFullYear()) * 12
+            + currentDate.getMonth() - cursor.getMonth();
+        cursor.setMonth(cursor.getMonth() + months);
+
+        if (cursor > currentDate) {
+            months--;
+            cursor.setMonth(cursor.getMonth() - 1);
+        }
+
+        const millisecondsPerDay = 24 * 60 * 60 * 1000;
+        const days = Math.floor((currentDate - cursor) / millisecondsPerDay);
+        cursor.setDate(cursor.getDate() + days);
+
+        const remainingSeconds = Math.floor((currentDate - cursor) / 1000);
+        const hours = Math.floor(remainingSeconds / 3600);
+        const minutes = Math.floor((remainingSeconds % 3600) / 60);
+        const seconds = remainingSeconds % 60;
+        const dateParts = [];
+
+        if (years > 0) dateParts.push(`${years} ${years === 1 ? 'year' : 'years'}`);
+        if (months > 0 || years > 0) dateParts.push(`${months} ${months === 1 ? 'month' : 'months'}`);
+        dateParts.push(`${days} ${days === 1 ? 'day' : 'days'}`);
+
+        if (format === 'compact') {
+            if (years > 0) return `${years} ${years === 1 ? 'year' : 'years'}, ${months} ${months === 1 ? 'month' : 'months'}`;
+            if (months > 0) return `${months}+ ${months === 1 ? 'month' : 'months'}`;
+            return `${days}+ days`;
+        }
+
+        return `${dateParts.join(', ')} • ${String(hours).padStart(2, '0')}h ${String(minutes).padStart(2, '0')}m ${String(seconds).padStart(2, '0')}s`;
+    }
+
+    function updateTenureCounters() {
+        const now = new Date();
+
+        tenureCounters.forEach(counter => {
+            const startDate = new Date(counter.dataset.startDate);
+
+            if (!Number.isNaN(startDate.getTime())) {
+                counter.textContent = formatTenure(startDate, now, counter.dataset.tenureFormat);
+            }
+        });
+    }
+
+    if (tenureCounters.length > 0) {
+        updateTenureCounters();
+        window.setInterval(updateTenureCounters, 1000);
     }
     
     // =============================================
